@@ -83,8 +83,9 @@
     <Compile Include="Repos\CartManage.cs" />
     <Compile Include="Repos\CustomerRepo.cs" />
     <Compile Include="Repos\ManageCartRepo.cs" />
+    <Compile Include="Repos\ManageCustomerOrderRepo.cs" />
     <Compile Include="Repos\ManageOrderRepo.cs" />
-    <Compile Include="Repos\ManageProductOrder.cs" />
+    <Compile Include="Repos\ManageProductOrderRepo.cs" />
     <Compile Include="Repos\OrderDetailsRepo.cs" />
     <Compile Include="Repos\OrderRepo.cs" />
     <Compile Include="Repos\ProductRepo.cs" />

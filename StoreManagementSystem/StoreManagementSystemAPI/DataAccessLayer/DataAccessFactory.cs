@@ -41,8 +41,19 @@ namespace DataAccessLayer
         }
         public static ICart<CustomerOrder, int, int, bool> ManageCustomerOrderData()
         {
+            return new ManageCustomerOrderRepo();
+        }
+        public static ICart<ProductOrder, int, int, bool> ManageProductOrderData()
+        {
             return new ManageProductOrderRepo();
         }
-
+        public static IRepo<FeedBack, int, bool> FeedBackData()
+        {
+            return new FeedBackRepo();
+        }
+        public static IRepo<Review, int, bool> ReviewData()
+        {
+            return new ReviewRepo();
+        }
     }
 }
