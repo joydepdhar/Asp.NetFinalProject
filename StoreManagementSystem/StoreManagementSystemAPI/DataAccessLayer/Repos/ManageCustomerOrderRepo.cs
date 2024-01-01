@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Repos
 {
-    internal class ManageCustomerOrderRepo : Repo, ICart<CustomerOrder, int, int, bool>
+    public class ManageCustomerOrderRepo : Repo, ICart<CustomerOrder, int, int, bool>
     {
         public bool Create(CustomerOrder obj)
         {

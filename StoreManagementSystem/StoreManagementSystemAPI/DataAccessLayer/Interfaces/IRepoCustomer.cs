@@ -7,7 +7,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace DataAccessLayer.Interfaces
 {
-    internal interface IRepoCustomer<Type, ID, TEXT, Decimal,RET>
+    public interface IRepoCustomer<Type, ID, TEXT, Decimal,RET>
     {
         RET Created(Type obj);
 

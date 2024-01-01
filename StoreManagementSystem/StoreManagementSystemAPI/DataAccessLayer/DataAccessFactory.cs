@@ -39,6 +39,10 @@ namespace DataAccessLayer
         {
             return new ManageCartRepo();
         }
+        public static IRepoCustomer<Product, int, string, int, Product> ManageProductData()
+        {
+            return new ManageProductRepo();
+        }
         public static ICart<CustomerOrder, int, int, bool> ManageCustomerOrderData()
         {
             return new ManageCustomerOrderRepo();
